@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" total="5" passed="5">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="220289" started-at="2019-06-12T06:36:28Z" finished-at="2019-06-12T06:40:08Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="220289" started-at="2019-06-12T06:36:28Z" finished-at="2019-06-12T06:40:08Z">
+      <class name="com.MyFleetMan.testng.testBase">
+        <test-method status="PASS" signature="suiteSetUp()[pri:0, instance:com.MyFleetMan.testng.testBase@224edc67]" name="suiteSetUp" is-config="true" duration-ms="3998" started-at="2019-06-12T12:06:28Z" finished-at="2019-06-12T12:06:32Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteSetUp -->
+        <test-method status="PASS" signature="LaunchWebsite()[pri:1, instance:com.MyFleetMan.testng.testBase@224edc67]" name="LaunchWebsite" duration-ms="3892" started-at="2019-06-12T12:06:32Z" description="Opens the Website for Login Test" finished-at="2019-06-12T12:06:36Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchWebsite -->
+        <test-method status="PASS" signature="FillLoginDetails()[pri:2, instance:com.MyFleetMan.testng.testBase@224edc67]" name="FillLoginDetails" duration-ms="1139" started-at="2019-06-12T12:06:36Z" description="Fill the Login Details" finished-at="2019-06-12T12:06:37Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillLoginDetails -->
+        <test-method status="PASS" signature="DoLogin()[pri:3, instance:com.MyFleetMan.testng.testBase@224edc67]" name="DoLogin" duration-ms="3056" started-at="2019-06-12T12:06:37Z" description="Perform Login" finished-at="2019-06-12T12:06:40Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- DoLogin -->
+        <test-method status="PASS" signature="FillBookingForm()[pri:4, instance:com.MyFleetMan.testng.testBase@224edc67]" name="FillBookingForm" duration-ms="199560" started-at="2019-06-12T12:06:40Z" description="Fill Booking &amp; Allocation Form" finished-at="2019-06-12T12:10:00Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- FillBookingForm -->
+        <test-method status="PASS" signature="Logout()[pri:5, instance:com.MyFleetMan.testng.testBase@224edc67]" name="Logout" duration-ms="7231" started-at="2019-06-12T12:10:00Z" description="Logout From the Application" finished-at="2019-06-12T12:10:07Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Logout -->
+        <test-method status="PASS" signature="suiteTearDown()[pri:0, instance:com.MyFleetMan.testng.testBase@224edc67]" name="suiteTearDown" is-config="true" duration-ms="1384" started-at="2019-06-12T12:10:07Z" finished-at="2019-06-12T12:10:08Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- suiteTearDown -->
+      </class> <!-- com.MyFleetMan.testng.testBase -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>
